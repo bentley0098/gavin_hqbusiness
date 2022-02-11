@@ -102,7 +102,7 @@ function Schedule() {
           chartLoaded = <ResponsiveContainer width="100%" height="100%">
                         <BarChart width={1600} height={700} data={graphData}>
                             <CartesianGrid  />
-                            <XAxis dataKey="Week" height={60} interval={0}  label={{ value: 'Week (1 = Current Week)', angle: 0, position: 'outsideLeft' }}/>
+                            <XAxis dataKey="Week" height={60} interval={0}  label={{ value: 'Week Starting on:', angle: 0, position: 'outsideLeft' }}/>
                             <YAxis  label={{ value: 'Hours', angle: -90, position: 'insideLeft' }}/>
                             <Tooltip />
                             <Legend />
