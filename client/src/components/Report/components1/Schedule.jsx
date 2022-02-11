@@ -12,23 +12,25 @@ const getScheduledTime = (startDate, endDate) => {
 }
 
 const pushNewWeek = (dataArray, number, weekDay) => {
-    let newest = {
-        Week: number, 
-        Richard: 0,
-        Wesley: 0,
-        Stephen: 0,
-        Neil: 0,
-        Gavin: 0
-    }
+    
 
         var curr = new Date; // get current date
         var first = (curr.getDate()+weekDay) - curr.getDay()+1; // First day is the day of the month - the day of the week
-        var last = first + 6; // last day is the first day + 6
+        //var last = first + 6; // last day is the first day + 6
         var sDate = moment(curr.setDate(first)).format('YYYY-MM-DDT00:00:00');
-        var eDate = moment(curr.setDate(last)).format('YYYY-MM-DDT11:59:59');
+        //var eDate = moment(curr.setDate(last)).format('YYYY-MM-DDT11:59:59');
 
+        var date = moment(curr).format("DD-MM");
+        let newest = {
+            Week: date, 
+            Richard: 0,
+            Wesley: 0,
+            Stephen: 0,
+            Neil: 0,
+            Gavin: 0
+        }
 
-    getScheduledTime(sDate, eDate).then(res => {
+    getScheduledTime(sDate).then(res => {
         res.map((x) => {
             //console.log(x);
             if(x.Username==='Richard'){

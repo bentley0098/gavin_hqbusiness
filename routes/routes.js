@@ -1010,7 +1010,7 @@ const router = app => {
 
     app.get('/getScheduledTimeByWeek/:startDate&:endDate', async(req,res) => {
         
-        var queryString = "RPT_SCHEDULE_BY_WEEK @DateFrom='"+req.params.startDate+"', @DateTo='"+req.params.endDate + "'";
+        var queryString = "RPT_SCHEDULE_BY_WEEK @DateFrom='"+req.params.startDate+"'";
         
         //console.log(queryString)
        try{
