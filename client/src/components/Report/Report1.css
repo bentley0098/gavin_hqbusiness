@@ -1,0 +1,85 @@
+.Report1 {
+    position:absolute;
+    margin: 0;
+    top: 5vh;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+/* Time Spent Report */
+
+.time-report {    
+    position: absolute;
+    right:0;
+    top:0;
+    left:270px;
+    bottom: 55px;
+    margin: 10px;
+    display:flex;
+    flex-direction: column;
+}
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    align-items: center;
+}
+
+.item {
+    flex: 1;
+}
+
+
+.date {
+    flex:1;
+}
+
+.user-select {
+    flex: 1; 
+}
+
+.bar-chart-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;  
+    flex-direction: row;
+    align-items: flex-start; 
+}
+/*
+.user-chart{
+    background:red;
+}
+
+.main-chart {
+    background: yellow;
+} */
+
+/* Closed Report */
+.closed-report {    
+    position: absolute;
+    right:0;
+    top:0;
+    left:270px;
+    bottom: 55px;
+    margin: 10px;
+    display:flex;
+    flex-direction: column;
+}
+
+.item {
+    flex: 1;
+    margin: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.closed-grid {
+    flex:1;
+}
+
+.spinner{
+    margin-top: 200px;
+}

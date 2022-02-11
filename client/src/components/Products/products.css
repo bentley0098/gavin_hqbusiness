@@ -1,0 +1,11 @@
+.Products {
+    position: absolute;
+    left:100px;
+    right:100px;
+    top: 60px;
+    margin-bottom: 100px;
+}
+
+.productURL {
+    margin: 10px;
+}

@@ -1,0 +1,66 @@
+.progress-1 {
+    margin: 5;
+    position:absolute;
+    right: 10px;
+    top: 110px;
+    width: 100px;
+}
+
+.progress-2 {
+    margin: 5;
+    position:absolute;
+    right: 10px;
+    top: 150px;
+    width: 100px;
+}
+.progress-3 {
+    margin: 5;
+    position:absolute;
+    right: 10px;
+    top: 190px;
+    width: 100px;
+}
+
+.progress-4 {
+    margin: 5;
+    position:absolute;
+    right: 10px;
+    top: 230px;
+    width: 100px;
+}
+
+.progress-5 {
+    margin: 5;
+    position:absolute;
+    right: 10px;
+    top: 270px;
+    width: 100px;
+}
+
+
+.summary-grid {
+    flex: 1;
+    width: 360px;
+}
+
+.summary {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    z-index: 10; 
+    width: 800px;
+
+}
+
+.estimate-chart{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.toast-body{ 
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}

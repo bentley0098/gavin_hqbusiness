@@ -1,0 +1,41 @@
+.alerts-toast {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+    z-index: 10; 
+    width: 500px; 
+}
+
+.alert-notification {
+    position: absolute;
+    right: 100px;
+    top: 90%;
+    z-index: 10; 
+    width: 500px; 
+}
+
+.errors {
+    top: 60px;
+    margin-bottom: 100px;
+    height: 95%;
+    width: 100%;
+}
+
+.top-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px 10px 30px;
+}
+
+.first-item{
+    flex: 2;
+    display:flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.third-item{
+    flex:1;
+}
